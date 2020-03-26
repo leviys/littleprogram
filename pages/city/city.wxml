@@ -1,0 +1,2 @@
+<view>欢迎来到城市服务</view>
+<view class="thisCityName">{{city}}</view>
