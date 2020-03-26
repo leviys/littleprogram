@@ -1,8 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+<<<<<<< HEAD
     "pages/logs/logs",
     "pages/city/city"
+=======
+    "pages/logs/logs"
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,9 +16,18 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
+<<<<<<< HEAD
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
   }
+=======
+
+"permission": {
+  "scope.userLocation": {
+    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+  }
+}
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
 }

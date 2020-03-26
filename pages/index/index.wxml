@@ -5,8 +5,19 @@
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+<<<<<<< HEAD
       <text class="">{{userInfo.nickName}}</text>
     </block>
   </view>
+=======
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  
+  <!-- 获取地理位置 -->
+   <view>
+     我的地理位置:123
+   </view> 
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
 
 </view>

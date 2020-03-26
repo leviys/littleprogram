@@ -12,12 +12,19 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
+<<<<<<< HEAD
       // url: '../logs/logs'
       url: '../city/city'
     })
   },
   onLoad: function () {
     console.log('index.js onl')
+=======
+      url: '../logs/logs'
+    })
+  },
+  onLoad: function () {
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -45,6 +52,7 @@ Page({
       })
     }
     
+<<<<<<< HEAD
     // wx.getLocation({
     //   success:function(res){
     //    console.log(res)
@@ -77,6 +85,19 @@ Page({
 
 
 
+=======
+    wx.getLocation({
+      success:function(res){
+       console.log(res)
+        console.log('获取成功')
+      },
+      fail:function(res){
+        console.log('获取失败')
+      }
+    })
+
+  },
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
   getUserInfo: function(e) {
     if (!e.detail.userInfo){
        console.log('用户点击拒绝')

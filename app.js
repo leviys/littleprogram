@@ -1,8 +1,14 @@
 //app.js 入口文件，任何页面刷新都会执行次js文件
+<<<<<<< HEAD
 
 App({
   onLaunch: function () {
     console.log('app.js Onlanch')
+=======
+console.log('app.js')
+App({
+  onLaunch: function () {
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -17,12 +23,18 @@ App({
     // 获取用户信息
     wx.getSetting({
       success: res => {
+<<<<<<< HEAD
         console.log(res,4444444444)
+=======
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
         if (res.authSetting['scope.userInfo']) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
           wx.getUserInfo({
             success: res => {
+<<<<<<< HEAD
               console.log(res)
+=======
+>>>>>>> b7a1dbeb4a1f5cafcaa6493f81a1063eb5012f4d
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
 
